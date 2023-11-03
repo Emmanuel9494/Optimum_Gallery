@@ -1,0 +1,2 @@
+This is where my Java Scripts will be as js stands for Java Scripts
+will be learning more about js in level 2

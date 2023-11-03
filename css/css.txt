@@ -1,0 +1,5 @@
+This is where my CSS files will be.
+I will be using this files to style my HTML
+I will be creating a Base CSS to tell any browser to ignore the browser default margins
+I might likely have different CSS for as the project gets bigger 
+CSS stands for Cascading Style Sheets
