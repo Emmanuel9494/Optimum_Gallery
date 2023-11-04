@@ -1,0 +1,128 @@
+html,body {
+    background-color: blueviolet;
+    width: 1280px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+.hidden {
+    display:none;
+}
+
+/* styling the section where you find the company logo, profile picture*/
+
+header {
+    position: fixed;
+    background-color: #000000;
+    z-index: 100;
+  }
+
+#logo-section{
+    background-color: rgb(255, 255, 255);
+    width: 1280px;
+    height: 70px;
+    
+}
+
+
+#top-logo {
+    
+    margin-left: 15px;
+   
+}
+
+.profile-circle {
+    
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%; 
+    overflow: hidden;
+    margin:-70px 65px 40px 1100px;
+  }
+  
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    display: block;
+  }
+  
+
+
+/* styling the section where you find the login, sign up and profile links*/
+
+#top-menu1 {
+    
+    
+    margin-top: -250px;
+    display: inline;
+}
+
+#top-menu1 ul {
+    
+    list-style-type: none;
+    margin-left: 650px;
+    margin-top: -55px;
+    
+    
+}
+
+#top-menu1 ul li  {
+    display:inline;
+    margin-right: 60px;
+  
+}
+
+
+#top-menu1 ul li a {
+  text-decoration: none;
+  color:rgb(71, 71, 71);
+}
+
+#top-menu1 ul li a:hover {
+    text-decoration: underline;
+    color:rgb(196, 22, 22);
+  }
+  
+  #top-menu2 {
+    
+    width: 1280px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    display: inline-flex;
+}
+/* styling the section where you find the */
+#top-menu2 ul {
+    list-style-type: none;
+    margin-left: 110px;
+    margin-top: -10px;
+   
+    
+}
+
+#top-menu2 ul li  {
+    display:inline;
+    margin-left: 100px;
+}
+
+
+#top-menu2 ul li a {
+  text-decoration: none;
+  color:rgb(71, 71, 71);
+}
+
+#top-menu2 ul li a:hover {
+    text-decoration: underline;
+    color:rgb(255, 255, 255);
+  }
+  
+
+  
+#cart-1{
+    margin-top: 26px;
+    margin-right:104px;
+    margin-bottom: 27px;
+    margin-left: 1131px;
+}
+  .art-details {
+    color: rgb(255, 255, 255);
+  }
