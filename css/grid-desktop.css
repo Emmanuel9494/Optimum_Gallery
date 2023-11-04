@@ -4,22 +4,14 @@
   display: grid;
   grid-template-columns: repeat(12, 50px);
   column-gap: 60px;
-  row-gap: 1px;
+  row-gap: 5px;
 }
 
-.container2 {
-    width: 1280px;
-    background-color: #efefef;
-    display: grid;
-    grid-template-columns: repeat(12, 55px);
-    column-gap: 50px;
-    row-gap: 1px;
-  }
 
 
-.box {
-    background-color: #5f5f5e;
-    color: #fff;
+
+.boxx {
+    background-color: #ffffff;
   }
   
   .box1 {
@@ -32,7 +24,7 @@
   }
   
   .box3 {
-    grid-column: 2/12;
+    grid-column: 1/13;
   }
   
   .box4 {
@@ -41,7 +33,7 @@
   }
   
   .box5 {
-    grid-column: 2/12;
+    grid-column: 1/13;
   }
   
   .box6 {
@@ -58,10 +50,33 @@
   
  
   .box9 {
-    grid-column: 1/8;
+    grid-column: 1/13;
   }
   
   .box10 {
+    grid-column: 2/9;
+  }
+
+  .box11 {
+    grid-column: 10/12;
+  }
+
+  .box12 {
+    grid-column: 2/5;
+  }
+
+  .box13 {
+    grid-column: 5/7;
+  }
+
+  .box14 {
     grid-column: 7/9;
   }
+
+  .box15 {
+    grid-column: 9/12;
+  }
   
+  .box16 {
+    grid-column: 2/12;
+  }
