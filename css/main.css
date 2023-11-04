@@ -1,3 +1,4 @@
+/* styling the body, all paragraphs*/
 html,body {
     background-color: blueviolet;
     width: 1280px;
@@ -8,6 +9,19 @@ html,body {
 .hidden {
     display:none;
 }
+
+.paragraph-break{
+    width: 1150px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.paragraph-breakway{
+    margin-top: 100px;
+    width: 1150px;
+    text-align: center;
+}
+
 
 /* styling the section where you find the company logo, profile picture*/
 
@@ -126,3 +140,204 @@ header {
   .art-details {
     color: rgb(255, 255, 255);
   }
+
+
+  /* styling the section where you find the class main_img-container*/
+
+  .main_img-container {
+    width: 1280px;
+    
+}
+
+.main_slider-wrapper{
+
+    position: relative;
+    width: 1280px;
+    
+}
+
+.main_slider {
+    display:flex;
+    width: 1280px;
+    overflow: hidden;
+   
+  
+}
+
+
+
+.main_slider-nav {
+
+  display: block;
+  column-gap: 10px;
+   position: absolute;
+   bottom: 50px;
+   left: 50%;
+   transform: translateX(-50%);
+   z-index: 1;
+}
+
+.main_slider-nav img{
+    width: 26px;
+    height: 31px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    opacity: 50%;
+    transition: opacity ease 250ms;
+}
+
+
+input{
+    width: 26px;
+    height: 31px;
+}
+
+
+/* styling the section where you find the class carousel-container1*/
+.carousel-container1 {
+    width: 1280px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel1 {
+    display: flex;
+    width: 1500px; 
+    animation: slider1 70s linear infinite;
+    max-width: 70%;
+    filter:contrast(20%);
+    filter: blur(5px);
+}
+
+
+@keyframes slider1 {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-1280px);
+    }
+
+    40% {
+        transform: translateX(-2560px);
+    }
+
+    80% {
+        transform: translateX(-3840px);
+    }
+   
+    100% {
+        transform: translateX(-5120px);
+    }
+}
+
+
+/* styling the section where you find the class event_img-container*/
+
+
+.event_img-container {
+    width: 115px;
+    height: 448px;
+   
+}
+
+.event_slider-wrapper{
+
+    position: relative;
+    width: 1280px;
+    margin-left: 65px;
+    margin-top: -500px;
+}
+
+.event_slider {
+    display:flex;
+    width: 1150px;
+    overflow: hidden;
+   
+  
+}
+
+
+
+.event_slider-nav {
+
+  display: block;
+  column-gap: 10px;
+   position: absolute;
+   bottom: 50px;
+   left: 50%;
+   transform: translateX(-50%);
+   z-index: 1;
+}
+
+.event_slider-nav img{
+    width: 26px;
+    height: 31px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    opacity: 50%;
+    transition: opacity ease 250ms;
+}
+
+
+  .background-image{
+    width: 1280px;
+    height: 1256px;
+    margin-bottom: -650px;
+  }
+
+  /* styling the section where you find the optimal social lead*/
+  .social-bg{
+    background-image: url(../image/optimum-social-media.jpg);
+    width: 1280px;
+    height: 1000px;
+  }
+
+  /*Footer Styling*/
+
+#footer-box{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+#footer-logo{
+    margin-left:100px;
+}
+#footer-social_logo{
+    margin-left: 1065px;
+    padding-right: 50px;
+}
+
+#footer-menu{
+    margin-left: 50px;
+    margin-top: -120px;
+}
+
+    #footer-menu ul {
+        list-style-type: none;
+        text-align: center;
+        margin-top: 10px;
+        
+        
+    }
+    
+    #footer-menu ul li  {
+        display:inline;
+        margin-right: 20px;
+        text-align: center;
+        
+    }
+    
+    
+    #footer-menu ul li a {
+      text-decoration: none;
+      color:rgb(71, 71, 71);
+    }
+    
+    #footer-menu ul li a:hover {
+        text-decoration: underline;
+        color:rgb(94, 4, 4);
+      }
