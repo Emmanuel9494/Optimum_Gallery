@@ -446,8 +446,9 @@ span .footer-link , a:hover {
 
 
   .optimum-social-icon{
+    margin-left: 20px;
     padding-left: 10px;
-    display: inline;
+    display: block;
     
   }
 
