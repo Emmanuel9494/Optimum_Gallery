@@ -6,9 +6,6 @@ html,body {
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
 }
 
-.hidden {
-    display:none;
-}
 
 .paragraph-break{
     background-color: #000000;
@@ -137,12 +134,10 @@ header {
 
   
 #cart-1{
-    margin-right:104px;
-    margin-bottom: 50px;
-    margin-top: -50px;
-    margin-left: 1100px; 
+    margin-left: 1100px;
+    margin-top: -80px;
+    margin-bottom: 20px;
     filter: invert(100%);
-   
 }
   .art-details {
     color: rgb(255, 255, 255);
@@ -385,8 +380,6 @@ input{
 
 #footer-box{
     height:415px;
-    z-index: 00;
-    position: sticky;
     background-color: rgb(0, 0, 0);
     color: #ffffff;
     padding-top: 50px;
@@ -413,7 +406,7 @@ input{
     #footer-menu ul li  {
         display:block;
         margin-right: 20px;
-        text-decoration: bu;
+        text-decoration: none;
         text-align: left;
         padding: 10px;
         
@@ -436,21 +429,24 @@ input{
     text-align: left;
 }
 
+span .footer-link{
+    color: #ffffff;
+}
 
-
-.footer-link, a{
+span .footer-link, a{
     text-decoration: underline;
     color: #ffffff;
 
 }
 
-.footer-link , a:hover {
+span .footer-link , a:hover {
     text-decoration: none;
-    color:rgb(255, 255, 255);
+    color:#ffffff;
   }
 
+
   .optimum-social-icon{
-    padding-left: 30x;
+    padding-left: 10px;
     display: inline;
     
   }
@@ -466,3 +462,4 @@ input{
     text-align: center;
     border-top: 1px solid #ffffff;
   }
+
