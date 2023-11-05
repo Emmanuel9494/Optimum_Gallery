@@ -1,18 +1,12 @@
 .container {
   width: 1280px;
-  background-color: #efefef;
+  background-color: #ffffff;
   display: grid;
-  grid-template-columns: repeat(12, 50px);
+  grid-template-columns: repeat(12, 60px);
   column-gap: 60px;
   row-gap: 5px;
 }
 
-
-
-
-.boxx {
-    background-color: #ffffff;
-  }
   
   .box1 {
     grid-column: 1/13;
@@ -78,5 +72,5 @@
   }
   
   .box16 {
-    grid-column: 2/12;
+    grid-column: 1/-1;
   }

@@ -1,8 +1,8 @@
 /* styling the body, all paragraphs*/
 html,body {
-    background-color: blueviolet;
+    background-color: rgb(255, 255, 255);
     width: 1280px;
-    margin: 0 auto;
+    margin: 0;
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
 }
 
@@ -11,47 +11,52 @@ html,body {
 }
 
 .paragraph-break{
+    background-color: #000000;
+    color: #ffffff;
     width: 1150px;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
+   padding: 20px;
 }
 
-.paragraph-breakway{
-    margin-top: 100px;
-    width: 1150px;
-    text-align: center;
+.art-title{
+    font-weight: bold;
 }
-
 
 /* styling the section where you find the company logo, profile picture*/
 
 header {
+    width: 1280px;
+    height: 140px;
     position: fixed;
     background-color: #000000;
     z-index: 100;
+    border-bottom: 5px solid #ffffff;
   }
 
 #logo-section{
     background-color: rgb(255, 255, 255);
-    width: 1280px;
-    height: 70px;
+    width: 1265px;
+    height: 95px;
     
 }
 
 
 #top-logo {
     
-    margin-left: 15px;
+    margin-left: 20px;
+    
    
 }
 
 .profile-circle {
     
-    width: 40px; 
-    height: 40px;
+    width: 60px; 
+    height: 50px;
     border-radius: 50%; 
     overflow: hidden;
-    margin:-70px 65px 40px 1100px;
+    margin:-90px 45px 30px 1090px;
+    padding-bottom: 10px;
   }
   
   .profile-picture {
@@ -64,78 +69,80 @@ header {
 
 /* styling the section where you find the login, sign up and profile links*/
 
-#top-menu1 {
-    
-    
-    margin-top: -250px;
-    display: inline;
-}
-
 #top-menu1 ul {
     
     list-style-type: none;
-    margin-left: 650px;
-    margin-top: -55px;
+    margin-left: 900px;
+    margin-top: -38px;
+    margin-bottom: 20px;
+    padding-top: 10px ;
     
     
 }
 
 #top-menu1 ul li  {
     display:inline;
-    margin-right: 60px;
+    margin-right: 20px;
+   
   
 }
 
 
 #top-menu1 ul li a {
   text-decoration: none;
-  color:rgb(71, 71, 71);
+  color:rgb(0, 0, 0);
 }
 
 #top-menu1 ul li a:hover {
-    text-decoration: underline;
-    color:rgb(196, 22, 22);
+    text-decoration: none;
+    color:rgba(34, 34, 34, 0.829);
   }
   
-  #top-menu2 {
+  
+
+/* styling the section where you find the */
+
+#top-menu2 {
     
     width: 1280px;
     height: 50px;
-    background-color: rgb(0, 0, 0);
-    display: inline-flex;
+    display: inline;
+    
 }
-/* styling the section where you find the */
+
 #top-menu2 ul {
     list-style-type: none;
-    margin-left: 110px;
-    margin-top: -10px;
    
-    
 }
 
 #top-menu2 ul li  {
     display:inline;
-    margin-left: 100px;
+    margin-left: 60px;
+    padding-left: 60px;
+    align-items: center;
+   
 }
 
 
 #top-menu2 ul li a {
-  text-decoration: none;
-  color:rgb(71, 71, 71);
+  text-decoration: underline;
+  color:rgb(255, 255, 255);
 }
 
 #top-menu2 ul li a:hover {
-    text-decoration: underline;
-    color:rgb(255, 255, 255);
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.829);
   }
   
 
   
 #cart-1{
-    margin-top: 26px;
     margin-right:104px;
-    margin-bottom: 27px;
-    margin-left: 1131px;
+    margin-bottom: 50px;
+    margin-top: -50px;
+    margin-left: 1100px; 
+    filter: invert(100%);
+   
 }
   .art-details {
     color: rgb(255, 255, 255);
@@ -198,7 +205,7 @@ input{
     width: 1280px;
     height: 600px;
     overflow: hidden;
-    position: relative;
+    margin-bottom: 30px;
 }
 
 .carousel1 {
@@ -208,6 +215,7 @@ input{
     max-width: 70%;
     filter:contrast(20%);
     filter: blur(5px);
+    
 }
 
 
@@ -240,6 +248,8 @@ input{
 .event_img-container {
     width: 115px;
     height: 448px;
+    margin-bottom: 20px;
+    margin-top: -20px;
    
 }
 
@@ -247,7 +257,7 @@ input{
 
     position: relative;
     width: 1280px;
-    margin-left: 65px;
+    margin-left: 50px;
     margin-top: -500px;
 }
 
@@ -268,7 +278,7 @@ input{
    position: absolute;
    bottom: 50px;
    left: 50%;
-   transform: translateX(-50%);
+   transform: translateX(-90%);
    z-index: 1;
 }
 
@@ -292,52 +302,167 @@ input{
   .social-bg{
     background-image: url(../image/optimum-social-media.jpg);
     width: 1280px;
-    height: 1000px;
+    height: 300px;
+    padding: 40px 20px;
   }
+
+.social-lead{
+    font-weight:lighter;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #000000ab;
+    width: 550px;
+    height: 270px;
+    padding: 10px 20px;
+}
+
+.social-lead{
+    width: 450px;
+}
+
+.social-lead-img{
+    font-weight:lighter;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #000000;
+    width: 350px;
+    height: 270px;
+    margin-top: 30px;
+    margin-left: -300px;
+    padding: 10px 20px;
+}
+
+
+.click-button1{
+    width: 611px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    margin-left: 580px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 10px;
+    
+    
+  }
+
+  .click-button1 a{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+  }
+
+  .click-button1 a:hover{
+    text-decoration: underline;
+    color:rgb(0, 0, 0);
+  }
+
+.click-button2{
+    width: 611px;
+    color: #000000;
+    font-size: 25px;
+    margin-left: 180px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 10px;
+    
+  }
+
+  .click-button2 ,a{
+    
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+  }
+
+  .click-button2 a:hover{
+    text-decoration: underline;
+    color:rgb(0, 0, 0);
+  }
+
 
   /*Footer Styling*/
 
 #footer-box{
+    height:415px;
+    z-index: 00;
+    position: sticky;
     background-color: rgb(0, 0, 0);
     color: #ffffff;
-    margin-top: 100px;
+    padding-top: 50px;
+    border-top: 5px solid #ffffff;
 }
 
 #footer-logo{
-    margin-left:100px;
+    filter: invert(100%);
+    margin-left:-60px;
 }
 #footer-social_logo{
     margin-left: 1065px;
     padding-right: 50px;
 }
 
-#footer-menu{
-    margin-left: 50px;
-    margin-top: -120px;
-}
+
 
     #footer-menu ul {
         list-style-type: none;
-        text-align: center;
-        margin-top: 10px;
         
         
     }
     
     #footer-menu ul li  {
-        display:inline;
+        display:block;
         margin-right: 20px;
-        text-align: center;
+        text-decoration: bu;
+        text-align: left;
+        padding: 10px;
         
     }
     
     
     #footer-menu ul li a {
-      text-decoration: none;
-      color:rgb(71, 71, 71);
+        text-decoration: underline;
+      color:rgb(255, 255, 255);
     }
     
     #footer-menu ul li a:hover {
-        text-decoration: underline;
-        color:rgb(94, 4, 4);
+        text-decoration: none;
+        color:rgb(255, 255, 255);
       }
+
+ 
+.footer-note{
+    width: 130px;
+    text-align: left;
+}
+
+
+
+.footer-link, a{
+    text-decoration: underline;
+    color: #ffffff;
+
+}
+
+.footer-link , a:hover {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+  }
+
+  .optimum-social-icon{
+    padding-left: 30x;
+    display: inline;
+    
+  }
+
+  .trademark{
+    margin:0;
+    background-color: rgba(0, 0, 0, 0.637);
+    font-size: 15px;
+    font-weight: lighter;
+    width: 1200px;
+    height: 70px;
+    padding-left:15px;
+    text-align: center;
+    border-top: 1px solid #ffffff;
+  }
