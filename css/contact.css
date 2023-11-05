@@ -1,0 +1,56 @@
+  /*CONTACT PAGE STYLING*/
+  .contact-bg{
+    background-image: url(../image/optimum-social-media.jpg);
+}
+
+   .contact-box {
+        border-radius: 15px;
+        background-color: #ffffff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.945);
+        margin: 500px 300px 100px 500px;
+        padding: 10px;
+        width: 350px;
+        margin-top: 190px;
+        text-align: center;
+        
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+.form-line{
+    display: flex;
+}
+
+    form ,.contact-box {
+        text-align: left;
+    }
+    
+    label, input, textarea {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 90%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    button {
+        margin-left: 150px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #0056b3;
+    }
