@@ -25,6 +25,10 @@ html,body {
 header {
     width: 1280px;
     height: 140px;
+    /*position: sticky;/** position set to sticky even with the bottom and top values set is not giving me the
+    effect i want, but FIXING the position looks better.
+    top:0px;
+    bottom:0px;*/
     position: fixed;
     background-color: #000000;
     z-index: 100;
