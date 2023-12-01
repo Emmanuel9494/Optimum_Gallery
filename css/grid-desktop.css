@@ -8,9 +8,16 @@
   display: grid;
   grid-template-columns: repeat(12, 60px);
   column-gap: 60px;
-  row-gap: 5px;
+  row-6gap: 5px;
 }
 
+.box {
+  background-color: #5f5f5e;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
   
   .box1 {
     grid-column: 1/13;
